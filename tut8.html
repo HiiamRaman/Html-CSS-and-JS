@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+</head>
+
+<body>
+    <h1> This is html forms </h2>
+    <form action="backend.php">
+        <label for="My name "> Name : </label>
+<label for="Mero naam"></label>
+        <div> <!--(same as break (br) statement in html) -->
+            <input type="text" name="name " id="My name "> <!--Helps to make the box  -->
+        </div>
+        <br>
+        
+        <label for="role"> <!-- (we use label jata point garda pani box lai point garxa  (ani for""" = id""") -->
+            <div>
+                whats the role :<input type="text" name="My role" id="role"> <!-- (my name lekhnu parxa ) -->
+            </div>
+        </label>
+        <br>
+        <label for="Binay"> Write an Email</label>
+        <div>
+           <input type="email" name="My mail" id="Binay">
+        </div>
+
+        <br>
+        <div>
+            Date of today: <input type="date">
+        </div>
+        <br>
+        <div>
+            Bonus : <input type="number" name="My bonus">
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="My gender"> Female <input type="radio" name="My gender">
+        </div>
+        <div>
+            Are you eligible ? : <input type="checkbox" checked name="my eligiblity">
+            <!--here checked means the box will be automatically checked or selected -->
+        </div>
+        <div>
+            Say something about you<textarea name="" cols="30" rows="10"></textarea>
+            <!--   like its name it creates some space to write something  -->
+        </div>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+        
+    </form>
+        
+</body>
+
+</html>
+<!-- ONE MORE TIP FROM MY BHAI (PRESS ALT SO YOU CAN MOVE YOUR CODES UP AND DOWN ) 
+ Type	Description
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button -->

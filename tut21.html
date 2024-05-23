@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment </title>
+
+
+    <style>
+        .container {
+            width: 1200px;
+            border: solid rgb(98, 86, 110);
+            margin: auto;
+            /* yesma chai auto garxa so it will be easy for us to give equal margin */
+background-color: rgb(230, 198, 159);
+
+        }
+
+        .item {
+            border: 2px solid rgb(23, 17, 28);
+            margin: 12px 3px;
+            padding: 12px 10px;
+            background-color: rgb(31, 228, 162);
+
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+
+        }
+
+        #stationary {
+          clear: both;     /*  this tag helps to boxes doesnot overcome their box  */
+            float: left;
+            width: 50%;
+        }
+        p, h1 {
+            text-align: right;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"> <!-- [ hamile yesma chai div vitra civ haleko xau so sabai lai eutai ma halna sakinxa ] -->
+        <div id="fruits" class="item">
+            <h2> Fruits and Vegetables 1 </h2>
+            <p id="raman">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam itaque minima rerum aut est
+                eum in voluptate.
+                Alias quam, libero quaerat officia numquam cupiditate? Recusandae saepe rem ducimus esse ullam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reprehenderit, doloremque eius esse
+                repellat reiciendis atque doloribus officia perspiciatis facilis dicta quaerat inventore non perferendis
+                enim ab praesentium. Eligendi dolorem nulla iusto error expedita. Sint labore quaerat deserunt magnam
+                ex.</p>
+        </div>
+        <div id="computer" class="item">
+            <h2> Fruits and Vegetables 2 </h2>
+            <p id="raman1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam itaque minima rerum aut est
+                eum in voluptate.
+                Alias quam, libero quaerat officia numquam cupiditate? Recusandae saepe rem ducimus esse ullam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum nisi veritatis et accusantium
+                sequi dolor totam earum? Tenetur error magni dolores? Unde ea quia repudiandae cupiditate exercitationem
+                dolorum, architecto a voluptates quod culpa rem quis soluta modi provident autem? </p>
+        </div>
+        <div id="stationary" class="item">
+            <h2> Fruits and Vegetables 3 </h2>
+            <p id="raman2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam itaque minima rerum aut est
+                eum in voluptate.
+                Alias quam, libero quaerat officia numquam cupiditate? Recusandae saepe rem ducimus esse ullam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, iste. Recusandae, esse! Ea, velit eius.
+                Maiores omnis odit, ad quo deleniti dolorem, explicabo officiis cupiditate rerum, corporis magnam eaque
+                ex ea perferendis consequatur. Reprehenderit consectetur suscipit corporis aliquid recusandae fugit?</p>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

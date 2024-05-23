@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position of </title>
+    <style>
+        .container{
+            border: 5px solid black;
+            background-color: aquamarine;
+            height: 2000px;
+        }
+.box{
+   display: inline-block;      /*eutai line ma leunae kaam ho yesko chai */
+border:2px solid red;
+width: 150px;
+height: 150px;
+margin: 2px;
+}
+#box3{
+    /* position: relative;      By relative you can move postion with respect to thier own  */
+ /* position: absolute;        /*      By absolute you can move postion with respect to parent position  
+    left: 100px; */
+/* position: fixed ; so we can make a box which will stay steady even with scrolling up and down  */
+/* lets talk about the sticky its same as position fixed but in this case the box gets sticked in same position  */
+position: sticky;
+top:5px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+
+   
+    <div class="box" id="box1">
+        1
+
+    </div>
+    <div class="box" id="box2">
+        2
+        
+    </div>   <div class="box" id="box3">
+        3
+       <STROng> CHAT WITH US</STROng>
+    </div><div class="box" id="box4">
+        4
+        
+    </div>
+</div>
+</body>
+</html>

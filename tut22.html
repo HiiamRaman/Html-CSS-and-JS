@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors and more designing</title>
+    <style>
+        .container {
+            border: solid #b53636;
+            background-color: #b1ebeb;
+            padding: 36px;
+            ;
+            margin: 67px auto;
+            /* here auto helps to keep margin of X equal and we give value of y */
+            width: 666px;
+        }
+
+        a {
+            text-decoration: none;
+            /*  yesma readmore link ko base ma under line aairako thiyo so hatako */
+        }
+
+        a:hover {
+            color: black;
+                /*crussor ko color blaclk gareko when it reacch on links   */
+           background-color: antiquewhite;  /*  tyo link ko color change gareko so it looks more better when we point our currsorthere */
+        }
+
+        .btn {
+            background-color: rgb(135, 87, 213);
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            /*  button ma cursor thiyena so we add cursor property on both */
+            font-size: 13px;
+            /* yesma chai button anin readmore ko sign badako */
+            border-radius: 5px;
+            /* we add border radius  */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3> This is my heading </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea animi voluptatem debitis voluptas ipsam placeat,
+            molestias provident accusantium cum sunt eligendi repellendus veniam, dolor quos sint, fugit sit libero a
+            dicta incidunt in id. Modi, amet veritatis consequatur, ratione dolor reiciendis impedit, repudiandae
+            laboriosam ab ducimus dolore excepturi reprehenderit sequi.
+        </p>
+        <a href="" class="btn">Readmore</a> <!-- yesma hamile class use garyou so we can update our link -->
+        <button class="btn">Contact Raman</button> <!-- same yesma pani class use garyou so we can update <button> -->
+    </div>
+</body>
+
+</html>
