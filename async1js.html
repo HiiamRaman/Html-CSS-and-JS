@@ -12,21 +12,16 @@ value. If the function throws an error, the promise is rejected with that error.
 
 <body>
 <h1> This is project on Asymc on jS </h1>
-<button id="Stop">STOP</button>    
+<button id="Stop">STOP</button>  
+<button id="Start">Start</button>  
 </body>
 <script>
-    const sayRaman = function(){
-console.log("Raman");  }
-   const changetext = function(){
-    document.querySelector('h1').innerHTML = "Best guy in this world";
-   }
+const sayDate = function(str){
+    console.log(str,Date.now());
+}
 
-    const changeMe = setTimeout(changetext,2000)
-    document.querySelector('#Stop').addEventListener('click',function()
-{
-    clearTimeout(changeMe)
-    console.log("stopped")
-})
+   const intervalid =   setInterval(sayDate,2000,"hi")
+   clearInterval(intervalid)
     </script>
 
 </html>
